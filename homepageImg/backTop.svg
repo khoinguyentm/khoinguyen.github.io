@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="Group_279" data-name="Group 279" transform="translate(-2936 250)">
+    <g id="Group_257" data-name="Group 257" transform="translate(2935.702 -250.298)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="27.5" cy="27.5" r="27.5" transform="translate(0.298 0.298)" fill="#25272c"/>
+      <path id="Icon_material-keyboard-arrow-up" data-name="Icon material-keyboard-arrow-up" d="M11.692,26.148,20.456,17.4l8.764,8.745,2.692-2.692L20.456,12,9,23.456Z" transform="translate(7.147 7.648)" fill="#fff"/>
+    </g>
+    <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="27.5" cy="27.5" r="27.5" transform="translate(2936 -250)" fill="#1f1f24"/>
+    <path id="Icon_material-keyboard-arrow-up-2" data-name="Icon material-keyboard-arrow-up" d="M11.692,26.148,20.456,17.4l8.764,8.745,2.692-2.692L20.456,12,9,23.456Z" transform="translate(2942.849 -242.651)" fill="#fff"/>
+  </g>
+</svg>

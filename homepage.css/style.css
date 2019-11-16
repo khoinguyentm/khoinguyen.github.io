@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8f8f8;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif !important;
+}
+h1 {
+  font-family: "Nunito", sans-serif;
+}
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #1d1d1d;
+}
+p {
+  font-weight: 500;
+  color: #1d1d1d;
+  line-height: 30px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Nav */
+.customNav {
+  width: 100%;
+  max-height: 100%;
+  margin-bottom: 100px;
+  background-size: cover;
+  background-color: #13a3fd !important;
+  z-index: 10;
+}
+.navbar-brand {
+  color: #ffffff !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 25px;
+  font-weight: 700;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-nav a:hover {
+  opacity: 0.8;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+.nav-link {
+  text-transform: uppercase;
+  color: #ffffff !important;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+header h1 {
+  color: #13a3fd;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 150%;
+}
+header p {
+  width: 65%;
+  margin: 10px auto 0 auto;
+  font-weight: 500;
+}
+
+/* Back top */
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #1f1f24;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 6px;
+}
+#topBtn:hover {
+  background: #13a3fd;
+}
+
+/* Scroll   */
+.down a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #1f1f24;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-align: center;
+}
+.down a:hover {
+  opacity: 0.5;
+}
+#section a {
+  padding-top: 70px;
+}
+
+#section a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #1f1f24;
+  border-bottom: 1px solid #1f1f24;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 1.5s infinite;
+  animation: sdb 1.5s infinite;
+}
+@-webkit-keyframes sdb {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+/* Work */
+.work1 {
+  margin-bottom: 100px;
+}
+.workContainer h1 {
+  color: #13a3fd;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.workContainer p {
+  width: 85%;
+}
+.button {
+  margin-top: 40px;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: 2px solid #1f1f24;
+  border-radius: 6px;
+}
+a .button {
+  text-decoration: none !important;
+  color: #1f1f24;
+  font-weight: 500;
+}
+a button:hover {
+  background-color: #13a3fd;
+  border: 2px solid #13a3fd;
+  color: #ffffff;
+}
+
+.work2 {
+  margin-bottom: 100px;
+}
+
+/* Footer */
+footer {
+  padding: 30px;
+  margin-top: 60px;
+}
+.icons a {
+  text-decoration: none;
+  color: #1f1f24;
+}
+.copy {
+  font-weight: lighter;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  color: #1f1f24;
+}
+.copy,
+.icons {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+.icons i {
+  font-size: 30px;
+  display: inline;
+  padding-top: 10px;
+  margin: 10px;
+}
+.icons i:hover {
+  color: #13a3fd;
+}
+
+@media only screen and (max-width: 991px) {
+  h2 {
+    font-size: 25px;
+  }
+  header h1 {
+    font-size: 25px;
+  }
+  header p {
+    width: 100%;
+  }
+
+  .workPic {
+    margin: 16px auto 10px auto;
+    width: 100%;
+  }
+
+  .button {
+    margin-top: 0px;
+  }
+  .workContainer h1 {
+    font-size: 25px;
+  }
+  .workContainer p {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    text-align: left;
+  }
+  .copy,
+  .icons {
+    text-align: left;
+  }
+}

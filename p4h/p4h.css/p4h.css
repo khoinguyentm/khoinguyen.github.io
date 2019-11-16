@@ -51,7 +51,6 @@ p {
 
 ul {
   list-style: none;
-  margin: 30px;
 }
 li {
   color: #1f1f24;
@@ -227,10 +226,10 @@ footer {
 
 @media only screen and (max-width: 991px) {
   h2 {
-    font-size: 25px;
+    font-size: 22px;
   }
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   p {
     width: 90%;
@@ -238,24 +237,20 @@ footer {
   header h1 {
     font-size: 25px;
   }
-  header p {
-    width: 100%;
-  }
-
   #pic {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  header {
+  header h1 {
     text-align: left;
   }
   header ul {
     display: block;
   }
   header ul li {
-    text-align: center;
+    text-align: left;
   }
   .copy,
   .icons {

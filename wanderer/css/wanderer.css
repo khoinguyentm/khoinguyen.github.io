@@ -26,7 +26,7 @@ h1 {
 h2 {
   margin: 30px 0;
   font-family: "Nunito", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   color: #13a3fd;
 }
@@ -123,10 +123,12 @@ header {
   text-align: center;
 }
 header img {
-  max-width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 header h1 {
+  font-size: 32px;
+  letter-spacing: 2px;
   margin-bottom: 40px;
   text-align: center;
   color: #13a3fd;
@@ -164,6 +166,7 @@ header ul li span {
 }
 .caseStudy ul li {
   text-align: left;
+  font-size: 16px;
 }
 #pic {
   width: 80%;
@@ -217,17 +220,17 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
-  body {
-    scroll-behavior: smooth;
-  }
   h2 {
-    font-size: 22px;
+    font-size: 25px;
   }
   h3 {
     font-size: 20px;
   }
   p {
-    width: 90%;
+    width: 100%;
+  }
+  header img {
+    width: 100%;
   }
   header h1 {
     font-size: 25px;

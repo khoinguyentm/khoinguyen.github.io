@@ -115,3 +115,161 @@ li {
 #topBtn:hover {
   background: #13a3fd;
 }
+
+/* Header */
+header {
+  width: 100%;
+  margin: 75px auto 50px auto;
+  text-align: center;
+}
+header img {
+  width: 100%;
+  margin: 0 auto;
+}
+header h1 {
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #13a3fd;
+  font-weight: 700;
+  width: 95%;
+}
+header ul {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header ul li span {
+  color: #13a3fd;
+  font-weight: 600;
+}
+
+.text-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Case Study */
+.caseStudy {
+  text-align: center;
+}
+#pic {
+  width: 80%;
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.caseStudy ul {
+  margin: 10px 0;
+  list-style: circle;
+  padding-left: 20px;
+}
+.caseStudy ul li {
+  text-align: left;
+  font-size: 16px;
+}
+.caseStudy ul p {
+  margin: 0;
+  font-size: 18px;
+  color: #13a3fd;
+}
+#ideation {
+  max-width: 100%;
+}
+#ideation:nth-child(1) {
+  margin: 0px auto 16px auto;
+}
+#ideation:nth-child(2) {
+  margin: 0px auto 40px auto;
+}
+#proBtn {
+  color: #ffffff;
+  padding: 10px 40px;
+  background-color: #1f1f24;
+  border: 2px solid #1f1f24;
+  border-radius: 6px;
+}
+#proBtn:hover {
+  background-color: #13a3fd;
+  border: 2px solid #13a3fd;
+}
+
+/* Footer */
+footer {
+  padding: 30px;
+  margin-top: 60px;
+}
+.icons a {
+  text-decoration: none;
+  color: #1f1f24;
+}
+.copy {
+  font-weight: lighter;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  color: #1f1f24;
+}
+.copy,
+.icons {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+.icons i {
+  font-size: 30px;
+  display: inline;
+  padding-top: 10px;
+  margin: 10px;
+}
+.icons i:hover {
+  color: #13a3fd;
+}
+
+@media only screen and (max-width: 991px) {
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    width: 100%;
+  }
+  header img {
+    width: 100%;
+  }
+  header h1 {
+    font-size: 25px;
+  }
+  #pic {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  header h1 {
+    text-align: left;
+  }
+  header ul {
+    display: block;
+  }
+  header ul li {
+    text-align: left;
+  }
+  .copy,
+  .icons {
+    text-align: left;
+  }
+}

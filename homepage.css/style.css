@@ -176,6 +176,10 @@ header p {
 .work1 {
   margin-bottom: 100px;
 }
+.workPic {
+  width: 100%;
+  height: 100%;
+}
 .workContainer h1 {
   color: #13a3fd;
   font-size: 40px;
@@ -252,8 +256,6 @@ footer {
 
   .workPic {
     margin: 16px auto 10px auto;
-    width: 100%;
-    height: 100%;
   }
 
   .button {

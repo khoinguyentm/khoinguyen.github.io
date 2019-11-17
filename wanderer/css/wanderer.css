@@ -186,6 +186,17 @@ header ul li span {
 #competitor:nth-child(2) {
   margin: 0px auto 40px auto;
 }
+#proBtn {
+  color: #ffffff;
+  padding: 10px 40px;
+  background-color: #1f1f24;
+  border: 2px solid #1f1f24;
+  border-radius: 6px;
+}
+#proBtn:hover {
+  background-color: #13a3fd;
+  border: 2px solid #13a3fd;
+}
 
 /* Footer */
 footer {
@@ -210,10 +221,10 @@ footer {
   display: block;
 }
 .icons i {
-  font-size: 30px;
+  font-size: 25px;
   display: inline;
   padding-top: 10px;
-  margin: 10px;
+  padding-right: 10px;
 }
 .icons i:hover {
   color: #13a3fd;

@@ -35,16 +35,10 @@ p {
   line-height: 30px;
 }
 
-section {
-  width: 100%;
-  height: 100vh;
-}
-
 /* Nav */
 .customNav {
   width: 100%;
   max-height: 100%;
-  margin-bottom: 100px;
   background-size: cover;
   background-color: #13a3fd !important;
   z-index: 10;
@@ -82,10 +76,9 @@ section {
 /* Header */
 header {
   width: 100%;
-  height: 100vh;
-  text-align: center;
-  overflow: hidden;
+  padding: 150px 0 130px;
 }
+
 header h1 {
   color: #13a3fd;
   font-size: 40px;
@@ -94,7 +87,6 @@ header h1 {
 }
 header p {
   width: 65%;
-  margin: 10px auto 0 auto;
   font-weight: 500;
 }
 
@@ -261,6 +253,7 @@ footer {
   .workPic {
     margin: 16px auto 10px auto;
     width: 100%;
+    height: 100%;
   }
 
   .button {

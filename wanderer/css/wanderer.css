@@ -221,10 +221,10 @@ footer {
   display: block;
 }
 .icons i {
-  font-size: 25px;
+  font-size: 28px;
   display: inline;
   padding-top: 10px;
-  padding-right: 10px;
+  padding: 0 5px;
 }
 .icons i:hover {
   color: #13a3fd;

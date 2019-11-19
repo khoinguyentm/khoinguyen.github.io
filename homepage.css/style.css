@@ -249,7 +249,10 @@ footer {
   h2 {
     font-size: 20px;
   }
-
+  .nav-item {
+    margin: 0;
+    text-align: right;
+  }
   header p {
     width: 100%;
     text-align: left;

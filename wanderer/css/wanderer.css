@@ -155,6 +155,10 @@ header ul li span {
   box-sizing: border-box;
 }
 
+.intro img {
+  margin: 20px auto;
+}
+
 /* Case Study */
 .caseStudy {
   text-align: center;

@@ -175,6 +175,15 @@ header p {
 }   */
 
 /* Work */
+.work1-5 {
+  margin-bottom: 100px;
+}
+#NA {
+  margin-top: 40px;
+  padding: 10px 30px;
+  border: 2px solid #dddddd;
+  border-radius: 6px;
+}
 .work0 {
   margin-bottom: 100px;
 }

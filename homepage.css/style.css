@@ -274,7 +274,10 @@ footer {
   .workPic {
     margin: 16px auto 10px auto;
   }
-
+  #NA {
+    margin-top: 0px;
+    padding: 10px 20px;
+  }
   .button {
     margin-top: 0px;
     padding: 10px 20px;

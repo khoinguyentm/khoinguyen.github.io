@@ -131,6 +131,26 @@ header ul li span {
   margin-right: auto;
 }
 
+/* Back top */
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #1f1f24;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 6px;
+}
+#topBtn:hover {
+  background: #13a3fd;
+}
+
 /* Case study */
 .intro {
   text-align: center;
@@ -146,6 +166,7 @@ header ul li span {
   padding: 0 20px;
   box-sizing: border-box;
 }
+
 .intro img {
   width: 100%;
   margin: 20px auto 30px auto;
@@ -156,4 +177,100 @@ header ul li span {
 }
 #diagram:nth-child(2) {
   margin: 0px auto 40px auto;
+}
+#proBtn {
+  margin-top: 15px;
+  color: #ffffff;
+  padding: 10px 40px;
+  background-color: #1f1f24;
+  border: 2px solid #1f1f24;
+  border-radius: 6px;
+}
+#proBtn:hover {
+  background-color: #13a3fd;
+  border: 2px solid #13a3fd;
+}
+#phone {
+  width: 30%;
+  height: 100%;
+}
+
+/* Footer */
+footer {
+  padding: 30px;
+  margin-top: 60px;
+}
+.icons a {
+  text-decoration: none;
+  color: #1f1f24;
+}
+.copy {
+  font-weight: lighter;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  color: #1f1f24;
+}
+.copy,
+.icons {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+.icons i {
+  font-size: 28px;
+  display: inline;
+  padding-top: 10px;
+  padding: 0 5px;
+}
+.icons i:hover {
+  color: #13a3fd;
+}
+
+@media only screen and (max-width: 991px) {
+  h2 {
+    font-size: 25px;
+  }
+  .nav-item {
+    margin: 0;
+    text-align: right;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    width: 100%;
+  }
+  header img {
+    width: 100%;
+  }
+  header h1 {
+    font-size: 25px;
+  }
+  #pic {
+    width: 100%;
+  }
+  #phone {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  header h1 {
+    text-align: left;
+  }
+  header ul {
+    display: block;
+  }
+  header ul li {
+    text-align: left;
+  }
+  .copy,
+  .icons {
+    text-align: left;
+  }
 }

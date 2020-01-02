@@ -89,19 +89,77 @@ p {
 header {
   width: 100%;
   height: 100%;
-  padding: 150px 0 130px;
+  padding: 150px 0 60px;
 }
-header p {
+header img {
+  width: 90%;
+  height: 100%;
+}
+.intro-text {
+  width: 75% !important;
+}
+.intro-text h1 {
   color: #13a3fd;
-  width: 75%;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 35px;
   font-family: "Nunito", sans-serif;
   line-height: 48px;
   letter-spacing: 2px;
-  text-align: center;
   margin: 0 auto;
 }
+.intro-text p {
+  font-size: 20px;
+  line-height: 36px;
+  padding: 20px 0;
+}
+#download {
+  padding: 10px 40px;
+  color: #3a3a3a !important;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #ffff;
+  border: 3px solid #13a3fd;
+  border-radius: 50px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+#download:hover {
+  background-color: #13a3fd;
+  border: 3px solid #13a3fd;
+  color: #ffff !important;
+  text-decoration: none;
+}
+/* End of Header */
+
+/* Cards */
+.cards {
+  width: 100%;
+  text-align: center;
+}
+.card-item {
+  width: 255px;
+  height: 180px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 0 45px;
+  box-shadow: 0 10px 20px 0 rgba(19, 152, 251, 0.3);
+  /*border: 2px solid #13a3fd;*/
+}
+.card-item img {
+  width: 60px;
+  height: 60px;
+  margin: 25px 0 0 0;
+}
+.card-item h1 {
+  font-size: 20px;
+  color: #13a3fd;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: 33px;
+}
+/* End of Cards*/
 
 /* Back top */
 #topBtn {
@@ -122,6 +180,7 @@ header p {
 #topBtn:hover {
   background: #13a3fd;
 }
+/* End of Back top */
 
 /* Scroll
 .down a {
@@ -186,6 +245,9 @@ header p {
 }   */
 
 /* Work */
+.workContainer {
+  margin-top: 60px;
+}
 .work1-5 {
   margin-bottom: 100px;
 }

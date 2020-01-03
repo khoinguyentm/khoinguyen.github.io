@@ -32,14 +32,13 @@ h2 {
 p {
   font-weight: 500;
   color: #1d1d1d;
-  line-height: 30px;
+  line-height: 32px;
 }
 
 /* Nav */
 .customNav {
   position: fixed;
   width: 100%;
-  min-height: 8vh;
   background-size: cover;
   background-color: #f8f8f8 !important;
   z-index: 10;
@@ -96,7 +95,7 @@ header img {
   height: 100%;
 }
 .intro-text {
-  width: 75% !important;
+  width: 75%;
 }
 .intro-text h1 {
   color: #13a3fd;
@@ -144,8 +143,8 @@ header img {
   display: inline-block;
   border-radius: 10px;
   margin: 0 45px;
-  box-shadow: 0 10px 20px 0 rgba(19, 152, 251, 0.3);
-  /*border: 2px solid #13a3fd;*/
+  /*box-shadow: 0 10px 20px 0 rgba(19, 152, 251, 0.3);*/
+  border: 2px solid #13a3fd;
 }
 .card-item img {
   width: 60px;
@@ -246,35 +245,58 @@ header img {
 
 /* Work */
 .workContainer {
-  margin-top: 60px;
+  margin-top: 100px;
 }
 .work1-5 {
   margin-bottom: 100px;
 }
 #NA {
-  margin-top: 40px;
+  text-decoration: none;
   padding: 10px 30px;
   border: 2px solid #dddddd;
   border-radius: 6px;
 }
-.work0 {
-  margin-bottom: 100px;
-}
+
 .work1 {
   margin-bottom: 100px;
 }
+
+.work0 {
+  margin-bottom: 100px;
+}
+
+#view {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: #3a3a3a;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+}
+#view:hover {
+  color: #13a3fd;
+}
+#line {
+  width: 87px;
+  border: 2px solid #13a3fd;
+  margin-top: 5px;
+}
 .workPic {
-  width: 100%;
+  width: 100% !important;
   height: 100%;
+  filter: drop-shadow(0px 2px 3px black);
 }
 .workContainer h1 {
+  text-align: center;
   color: #13a3fd;
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .workContainer p {
-  width: 85%;
+  padding: 20px 0;
+  width: 70%;
 }
 .button {
   margin-top: 40px;
@@ -331,19 +353,23 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
-  h2 {
+  .customNav h2 {
     font-size: 20px;
   }
   .nav-item {
     margin: 0;
     text-align: right;
   }
+
   header p {
     width: 100%;
     text-align: left;
     font-size: 25px;
   }
-
+  .card-item {
+    display: block;
+    margin: 20px auto;
+  }
   .workPic {
     margin: 16px auto 10px auto;
   }
@@ -359,13 +385,42 @@ footer {
     font-size: 25px;
   }
   .workContainer p {
-    width: 90%;
+    width: 75%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  header {
-    padding: 100px 0 80px;
+  header img {
+    width: 75%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+  }
+  #download {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .intro-text {
+    width: 100%;
+    margin: 0;
+  }
+  .workContainer {
+    margin-top: 50px;
+  }
+  .workContainer h1 {
+    margin-bottom: 40px;
+  }
+  .workContainer p {
+    padding: 8px 0;
+    width: 100%;
+  }
+  .work1,
+  .work0,
+  .work1-5,
+  .work2 {
+    margin-bottom: 55px;
+  }
+  #view {
+    font-size: 18px;
   }
   .copy,
   .icons {

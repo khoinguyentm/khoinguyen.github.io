@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #f8f8f8;
+  background-color: #fff;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,14 +24,14 @@ h1 {
   font-family: "Nunito", sans-serif;
 }
 h2 {
-  margin: 30px 0;
+  margin: 30px 0 15px 0;
   font-family: "Nunito", sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: #13a3fd;
 }
 h3 {
-  margin: 25px 0 5px 0;
+  margin: 20px 0 5px 0;
   color: #1f1f24;
   font-size: 25px;
   font-weight: 600;
@@ -59,25 +59,34 @@ li {
 
 /* Nav */
 .customNav {
+  position: fixed;
   width: 100%;
-  max-height: 100%;
-  margin-bottom: 100px;
   background-size: cover;
-  background-color: #13a3fd !important;
+  background-color: #f8f8f8 !important;
   z-index: 10;
 }
 .navbar-brand {
-  color: #ffffff !important;
+  color: #3a3a3a !important;
   font-family: "Nunito", sans-serif !important;
   font-size: 25px;
   font-weight: 700;
+}
+.navbar-brand span {
+  color: #13a3fd;
 }
 .navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
 }
+.navbar-nav a {
+  text-decoration: none;
+  color: #8f8f8f !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 13px;
+  font-weight: 600;
+}
 .navbar-nav a:hover {
-  opacity: 0.8;
+  color: #3a3a3a !important;
 }
 .nav-item {
   margin: 0px 15px;
@@ -95,6 +104,7 @@ li {
 .navbar-light .navbar-toggler {
   border: none !important;
 }
+/* end of nav */
 
 /* Back top */
 #topBtn {
@@ -118,8 +128,9 @@ li {
 
 /* Header */
 header {
-  width: 100%;
-  margin: 75px auto 50px auto;
+  width: 90%;
+  padding: 150px 0 60px;
+  margin: 0 auto;
   text-align: center;
 }
 header img {
@@ -160,12 +171,9 @@ header ul li span {
   text-align: center;
 }
 #pic {
-  width: 80%;
-  vertical-align: middle;
+  width: 45%;
   text-align: center;
   margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .caseStudy ul {
   margin: 10px 0;
@@ -191,6 +199,7 @@ header ul li span {
   margin: 0px auto 40px auto;
 }
 #proBtn {
+  text-transform: uppercase;
   color: #ffffff;
   padding: 10px 40px;
   background-color: #1f1f24;
@@ -238,6 +247,16 @@ footer {
   h2 {
     font-size: 25px;
   }
+  header {
+    padding: 100px 0 0px 0;
+  }
+
+  .navbar-nav a {
+    font-size: 15px;
+  }
+  .text-wrapper {
+    padding: 0;
+  }
   .nav-item {
     margin: 0;
     text-align: right;
@@ -246,7 +265,7 @@ footer {
     font-size: 20px;
   }
   p {
-    width: 100%;
+    width: 90%;
   }
   header img {
     width: 100%;
@@ -255,7 +274,7 @@ footer {
     font-size: 25px;
   }
   #pic {
-    width: 100%;
+    width: 75%;
   }
 }
 
@@ -271,6 +290,9 @@ footer {
   }
   header ul li {
     text-align: left;
+  }
+  #proBtn {
+    padding: 10px 20px;
   }
   .copy,
   .icons {

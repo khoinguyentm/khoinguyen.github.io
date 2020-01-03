@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #f8f8f8;
+  background-color: #fff;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,24 +23,34 @@ body {
 
 /* Nav */
 .customNav {
+  position: fixed;
   width: 100%;
-  max-height: 100%;
   background-size: cover;
-  background-color: #13a3fd !important;
+  background-color: #f8f8f8 !important;
   z-index: 10;
 }
 .navbar-brand {
-  color: #ffffff !important;
+  color: #3a3a3a !important;
   font-family: "Nunito", sans-serif !important;
   font-size: 25px;
   font-weight: 700;
+}
+.navbar-brand span {
+  color: #13a3fd;
 }
 .navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
 }
+.navbar-nav a {
+  text-decoration: none;
+  color: #8f8f8f !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 13px;
+  font-weight: 600;
+}
 .navbar-nav a:hover {
-  opacity: 0.8;
+  color: #3a3a3a !important;
 }
 .nav-item {
   margin: 0px 15px;
@@ -52,13 +62,13 @@ body {
   text-decoration: none;
   font-size: 16px;
 }
-
 .navbar-toggler {
   padding: 2px !important;
 }
 .navbar-light .navbar-toggler {
   border: none !important;
 }
+/* end of nav */
 
 /* Back top */
 #topBtn {

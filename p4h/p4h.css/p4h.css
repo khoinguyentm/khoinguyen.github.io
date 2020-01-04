@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 
 * {
   margin: 0;
@@ -18,7 +19,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Noto Sans", sans-serif !important;
 }
 h1 {
   font-family: "Nunito", sans-serif;
@@ -38,7 +39,7 @@ h3 {
 }
 p {
   font-weight: 500;
-  color: #1f1f24;
+  color: #5b5d5c;
   line-height: 30px;
 }
 
@@ -53,7 +54,7 @@ ul {
   list-style: none;
 }
 li {
-  color: #1f1f24;
+  color: #5b5d5c;
   font-size: 18px;
 }
 

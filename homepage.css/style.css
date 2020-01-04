@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 
 * {
   margin: 0;
@@ -18,7 +19,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Noto Sans", sans-serif !important;
 }
 h1 {
   font-family: "Nunito", sans-serif;
@@ -31,7 +32,7 @@ h2 {
 }
 p {
   font-weight: 500;
-  color: #1d1d1d;
+  color: #5b5d5c;
   line-height: 32px;
 }
 
@@ -88,7 +89,7 @@ p {
 /* Header */
 header {
   width: 100%;
-  height: 100%;
+  height: 90vh;
   padding: 150px 0 60px;
 }
 header img {
@@ -108,6 +109,7 @@ header img {
   margin: 0 auto;
 }
 .intro-text p {
+  color: #5b5d5c !important;
   font-size: 20px;
   line-height: 36px;
   padding: 20px 0;
@@ -130,6 +132,9 @@ header img {
   border: 3px solid #13a3fd;
   color: #ffff !important;
   text-decoration: none;
+}
+.carousel-item .active {
+  filter: drop-shadow(0px 2px 3px black);
 }
 /* End of Header */
 
@@ -391,6 +396,9 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  header {
+    height: 925px;
+  }
   header img {
     width: 75%;
     height: 100%;

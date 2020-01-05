@@ -28,7 +28,7 @@ h2 {
   font-family: "Nunito", sans-serif;
   font-size: 25px;
   font-weight: 700;
-  color: #1d1d1d;
+  color: #3a3a3a;
 }
 p {
   font-weight: 500;
@@ -441,11 +441,11 @@ footer {
     text-align: center;
     display: block;
   }
-  .design-service-title {
-    font-size: 22px;
+  .design-service .design-service-title {
+    font-size: 23px !important;
   }
   .workContainer h1 {
-    font-size: 22px;
+    font-size: 23px;
   }
   .design-item {
     margin-bottom: 30px;

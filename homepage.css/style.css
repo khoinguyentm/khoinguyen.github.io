@@ -26,7 +26,7 @@ h1 {
 }
 h2 {
   font-family: "Nunito", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   color: #1d1d1d;
 }
@@ -89,20 +89,12 @@ p {
 /* Header */
 header {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   padding: 150px 0 60px;
 }
 header img {
   width: 90%;
   height: 100%;
-}
-.carousel-inner > .item {
-  position: relative;
-  display: none;
-  -webkit-transition: 0.3s ease-in-out left;
-  -moz-transition: 0.3s ease-in-out left;
-  -o-transition: 0.3s ease-in-out left;
-  transition: 0.3s ease-in-out left;
 }
 .intro-text {
   width: 75%;
@@ -149,6 +141,7 @@ header img {
 
 /* services */
 .design-service {
+  width: 100%;
   height: 100%;
   padding: 5%;
   box-shadow: 0 10px 20px 0 rgba(119, 129, 173, 0.1);
@@ -186,7 +179,7 @@ li {
   display: list-item;
   text-align: -webkit-match-parent;
 }
-/* End of Cards*/
+/* End of Services*/
 
 /* Back top */
 #topBtn {
@@ -380,6 +373,11 @@ footer {
   color: #13a3fd;
 }
 
+@media only screen and (max-width: 1024px) {
+  header {
+    height: 42vh;
+  }
+}
 @media only screen and (max-width: 991px) {
   .customNav h2 {
     font-size: 20px;
@@ -388,7 +386,6 @@ footer {
     margin: 0;
     text-align: right;
   }
-
   header p {
     width: 100%;
     text-align: left;
@@ -419,7 +416,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   header {
-    height: 925px;
+    height: 850px;
   }
   header img {
     width: 75%;
@@ -433,6 +430,28 @@ footer {
   .intro-text {
     width: 100%;
     margin: 0;
+  }
+  .intro-text h1 {
+    font-size: 30px;
+  }
+  .intro-text p {
+    font-size: 18px;
+  }
+  .design-service .design-items {
+    text-align: center;
+    display: block;
+  }
+  .design-service-title {
+    font-size: 22px;
+  }
+  .workContainer h1 {
+    font-size: 22px;
+  }
+  .design-item {
+    margin-bottom: 30px;
+  }
+  .design-icon {
+    margin-bottom: 10px;
   }
   .workContainer {
     margin-top: 50px;

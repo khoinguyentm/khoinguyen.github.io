@@ -139,11 +139,11 @@ header img {
   margin: 0 auto;
 }
 header h1 {
-  font-size: 32px;
+  font-size: 35px;
   letter-spacing: 2px;
   margin-bottom: 40px;
   text-align: center;
-  color: #13a3fd;
+  color: #3a3a3a;
   font-weight: 700;
 }
 header ul {

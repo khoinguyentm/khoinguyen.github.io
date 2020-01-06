@@ -135,9 +135,7 @@ header img {
   color: #ffff !important;
   text-decoration: none;
 }
-.carousel-item .active {
-  filter: drop-shadow(0px 2px 3px black);
-}
+
 /* End of Header */
 
 /* services */
@@ -307,7 +305,6 @@ li {
 .workPic {
   width: 100% !important;
   height: 100%;
-  filter: drop-shadow(0px 2px 3px black);
 }
 .workContainer h1 {
   text-transform: uppercase;

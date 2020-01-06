@@ -386,6 +386,12 @@ footer {
     margin: 0;
     text-align: right;
   }
+  #carouselExampleSlidesOnly {
+    margin-top: 50px;
+  }
+  header {
+    height: 80vh;
+  }
   header p {
     width: 100%;
     text-align: left;

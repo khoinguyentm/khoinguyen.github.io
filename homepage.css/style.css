@@ -89,8 +89,9 @@ p {
 /* Header */
 header {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   padding: 150px 0 60px;
+  margin-bottom: 100px;
 }
 header img {
   width: 90%;
@@ -375,7 +376,13 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   header {
-    height: 42vh;
+    height: 55vh;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  header {
+    height: 80vh;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -390,7 +397,8 @@ footer {
     margin-top: 50px;
   }
   header {
-    height: 80vh;
+    height: 1000px;
+    margin-bottom: 50px;
   }
   header p {
     width: 100%;
@@ -423,11 +431,15 @@ footer {
 @media only screen and (max-width: 768px) {
   header {
     height: 850px;
+    margin-bottom: 40px;
   }
   header img {
     width: 75%;
     height: 100%;
     margin: 30px auto 0 auto;
+  }
+  #carouselExampleSlidesOnly {
+    margin-top: 30px;
   }
   #download {
     padding: 10px 20px;

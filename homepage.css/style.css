@@ -63,6 +63,7 @@ p {
   font-family: "Nunito", sans-serif !important;
   font-size: 13px;
   font-weight: 600;
+  transition: all 0.3s ease-out;
 }
 .navbar-nav a:hover {
   color: #3a3a3a !important;
@@ -195,6 +196,7 @@ li {
   cursor: pointer;
   z-index: 10;
   border-radius: 6px;
+  transition: all 0.3s ease-out;
 }
 #topBtn:hover {
   background: #13a3fd;
@@ -366,6 +368,7 @@ footer {
   display: inline;
   padding-top: 10px;
   padding: 0 5px;
+  transition: all 0.3s ease-out;
 }
 .icons i:hover {
   color: #13a3fd;

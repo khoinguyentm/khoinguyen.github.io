@@ -32,7 +32,7 @@ h2 {
   color: #13a3fd;
 }
 h3 {
-  margin: 20px 0 5px 0;
+  margin: 20px 0 8px 0;
   color: #3a3a3a;
   font-size: 25px;
   font-weight: 600;
@@ -187,7 +187,7 @@ header ul li span {
   font-size: 16px;
 }
 #pic {
-  width: 100%;
+  width: 80%;
   vertical-align: middle;
   text-align: center;
   margin-bottom: 40px;
@@ -206,10 +206,11 @@ header ul li span {
 }
 #proBtn {
   color: #ffffff;
-  padding: 10px 40px;
+  padding: 10px 20px;
   background-color: #1f1f24;
   border: 2px solid #1f1f24;
   border-radius: 6px;
+  transition: all 0.3s ease-out;
 }
 #proBtn:hover {
   background-color: #13a3fd;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 
@@ -19,7 +19,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Noto Sans", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 h1 {
   font-family: "Nunito", sans-serif;
@@ -55,6 +55,7 @@ ul {
 }
 li {
   color: #5b5d5c;
+  font-weight: 500;
   font-size: 18px;
 }
 
@@ -194,6 +195,7 @@ header ul li span {
 }
 .caseStudy ul li {
   text-align: left;
+  line-height: 30px;
   font-size: 16px;
 }
 .caseStudy a {

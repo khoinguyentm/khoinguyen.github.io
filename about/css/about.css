@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 
@@ -19,7 +19,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Noto Sans", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 /* Nav */

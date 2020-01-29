@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #fffffe;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,17 +29,17 @@ h2 {
   font-family: "Nunito", sans-serif;
   font-size: 30px;
   font-weight: 700;
-  color: #13a3fd;
+  color: #094067;
 }
 h3 {
   margin: 20px 0 8px 0;
-  color: #3a3a3a;
+  color: #13a3fd;
   font-size: 25px;
   font-weight: 600;
 }
 p {
   font-weight: 500;
-  color: #5b5d5c;
+  color: #5f6c7b;
   line-height: 30px;
 }
 
@@ -54,21 +54,21 @@ ul {
   list-style: none;
 }
 li {
-  color: #5b5d5c;
+  color: #5f6c7b;
   font-weight: 500;
   font-size: 18px;
 }
 
 /* Nav */
 .customNav {
-  position: fixed;
+  margin-top: 20px;
   width: 100%;
   background-size: cover;
-  background-color: #f8f8f8 !important;
+  background-color: transparent !important;
   z-index: 10;
 }
 .navbar-brand {
-  color: #3a3a3a !important;
+  color: #094067 !important;
   font-family: "Nunito", sans-serif !important;
   font-size: 25px;
   font-weight: 700;
@@ -82,26 +82,24 @@ li {
 }
 .navbar-nav a {
   text-decoration: none;
-  color: #8f8f8f !important;
+  color: #094067 !important;
   font-family: "Nunito", sans-serif !important;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 700;
   transition: all 0.3s ease-out;
 }
 .navbar-nav a:hover {
-  color: #3a3a3a !important;
+  color: #13a3fd !important;
 }
 .nav-item {
   margin: 0px 15px;
 }
 .nav-link {
   text-transform: uppercase;
-  color: #ffffff !important;
   list-style: none;
   text-decoration: none;
   font-size: 16px;
 }
-
 .navbar-toggler {
   padding: 2px !important;
 }
@@ -113,7 +111,7 @@ li {
 /* Header */
 header {
   width: 90%;
-  padding: 150px 0 60px;
+  padding: 100px 0 50px;
   margin: 0 auto;
   text-align: center;
 }
@@ -126,7 +124,7 @@ header h1 {
   letter-spacing: 2px;
   margin-bottom: 40px;
   text-align: center;
-  color: #3a3a3a;
+  color: #094067;
   font-weight: 700;
 }
 header ul {
@@ -150,16 +148,13 @@ header ul li span {
   font-size: 22px;
   width: 50px;
   height: 50px;
-  background: #1f1f24;
+  background: #ef4565;
   color: #ffffff;
   border: none;
   cursor: pointer;
   z-index: 10;
   border-radius: 6px;
   transition: all 0.3s ease-out;
-}
-#topBtn:hover {
-  background: #13a3fd;
 }
 
 #pic {
@@ -199,6 +194,8 @@ header ul li span {
   font-size: 16px;
 }
 .caseStudy a {
+  text-decoration: none;
+  color: #ef4565;
   display: table;
   text-align: left;
   margin-bottom: 20px;
@@ -219,13 +216,13 @@ footer {
 }
 .icons a {
   text-decoration: none;
-  color: #1f1f24;
+  color: #094067;
 }
 .copy {
   font-weight: lighter;
   font-size: 18px;
   font-family: "Nunito", sans-serif;
-  color: #1f1f24;
+  color: #5f6c7b;
 }
 .copy,
 .icons {
@@ -246,11 +243,15 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
+  .customNav {
+    margin: 0;
+  }
   h2 {
     font-size: 25px;
   }
   header {
-    padding: 100px 0 0px 0;
+    width: 100%;
+    padding: 50px 0 0px 0;
   }
   header img {
     width: 100%;
